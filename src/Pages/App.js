@@ -8,6 +8,7 @@ import Comment from '../components/Comment/comment'
 
 
 function App() {
+  console.log("Well, you check here, it shows that you are a professional like me and looking for bugs");
 
   const [data, setData] = useState(discussions);
 

@@ -11,7 +11,7 @@ const Input = ({ avatar, placeholder, searchDiscussions }) => {
       <img src={avatar} className={classes.avatar} />
       <input
         value={inputValue}
-        onChange={e => searchDiscussions(e.target.value)}
+        onChange={e => searchDiscussions && searchDiscussions(e.target.value)}
         className={classes.input}
         type="text"
         placeholder={placeholder} />
