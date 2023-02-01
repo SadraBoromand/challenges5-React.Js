@@ -23,4 +23,4 @@ const Image = ({ avatar, alt }) => {
     )
 }
 
-export default Image
+export default React.memo(Image);

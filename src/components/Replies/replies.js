@@ -21,4 +21,4 @@ const Replies = ({ replies }) => {
   );
 };
 
-export default Replies;
+export default React.memo(Replies);

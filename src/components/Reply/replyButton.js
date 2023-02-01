@@ -10,4 +10,4 @@ const ReplyButton = () => {
   );
 };
 
-export default ReplyButton;
+export default React.memo(ReplyButton);

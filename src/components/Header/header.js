@@ -5,4 +5,4 @@ const Header = ({ children }) => {
   return <div className={classes.container}>{children}</div>;
 };
 
-export default Header;
+export default React.memo(Header);

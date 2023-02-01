@@ -28,4 +28,4 @@ const Like = ({ liked, count, onClick }) => {
   );
 };
 
-export default Like;
+export default React.memo(Like);

@@ -85,4 +85,4 @@ const Comment = ({ user, iLikedIt, createDate, text, likes, replies = [], isRepl
   );
 };
 
-export default Comment;
+export default React.memo(Comment);

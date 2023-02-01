@@ -19,4 +19,4 @@ const Input = ({ avatar, placeholder, searchDiscussions }) => {
   );
 };
 
-export default Input;
+export default React.memo(Input);
