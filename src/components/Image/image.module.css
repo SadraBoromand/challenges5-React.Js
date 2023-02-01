@@ -1,0 +1,26 @@
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    align-self: flex-start;
+    margin-top: 25px;
+}
+
+.noAvatar {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    background-color: #deedfc;
+    border-radius: 100%;
+    align-self: flex-start;
+    margin-top: 25px;
+}
+
+.noAvatar_span {
+    align-self: center;
+    color: #235ee7;
+    font-weight: bold;
+}
